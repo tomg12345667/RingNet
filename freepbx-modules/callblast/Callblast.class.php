@@ -11,8 +11,8 @@ class Callblast extends FreePBX_Helpers implements BMO {
         $this->FreePBX = $freepbx;
     }
 
-    public static function install()   {}
-    public static function uninstall() {}
+    public function install()   {}
+    public function uninstall() {}
     public function showPage()         {}
 
     public function getRecordings() {
