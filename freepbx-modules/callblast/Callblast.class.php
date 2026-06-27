@@ -1,4 +1,3 @@
-cat > /var/www/html/admin/modules/RingNet/freepbx-modules/callblast/Callblast.class.php << 'EOF'
 <?php
 namespace FreePBX\modules;
 
