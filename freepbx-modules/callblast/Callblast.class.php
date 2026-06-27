@@ -113,4 +113,3 @@ class Callblast extends FreePBX_Helpers implements BMO {
         shell_exec('asterisk -rx "dialplan reload" 2>&1');
     }
 }
-EOF
