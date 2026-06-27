@@ -3,12 +3,15 @@
     <rawname>callblast</rawname>
     <repo>local</repo>
     <name>Call Blast</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <publisher>Local</publisher>
     <license>GPLv2</license>
     <licenselink>http://www.gnu.org/licenses/gpl-2.0.txt</licenselink>
     <description>Initiate an outbound call that plays a custom message to the recipient.</description>
     <category>Admin</category>
+    <menuitems>
+        <callblast>Call Blast</callblast>
+    </menuitems>
     <supported>
         <version>16</version>
     </supported>
