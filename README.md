@@ -1,2 +1,2 @@
-# RingNet
-RingNet CPBX
+# RingNet CPBX
+### Follow all License Procedures
