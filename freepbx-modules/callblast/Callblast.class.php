@@ -1,19 +1,21 @@
 <?php
 namespace FreePBX\modules;
 
-use FreePBX_Helpers;
 use BMO;
+use FreePBX_Helpers;
 
 class Callblast extends FreePBX_Helpers implements BMO {
 
     public function __construct($freepbx = null) {
-        parent::__construct($freepbx);
+        if ($freepbx == null) {
+            throw new \RuntimeException('Not given a FreePBX Object');
+        }
         $this->FreePBX = $freepbx;
     }
 
     public function install()   {}
     public function uninstall() {}
-    public function showPage()         {}
+    public function showPage()  {}
 
     public function getRecordings() {
         $recordings = [];
