@@ -7,7 +7,7 @@
  */
 
 // Bootstrap FreePBX module object
-$cb = \FreePBX::create()->Callblast;
+$cb = FreePBX::create()->Callblast;
 
 // ---- Handle form submission -------------------------------------------------
 $alertHtml = '';
